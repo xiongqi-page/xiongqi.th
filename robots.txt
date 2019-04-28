@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://th.xiongqi.page/sitemap.xml

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="th" dir="ltr" itemscope itemtype="https://schema.org/Game">
+  <head>
+    <title>เซียงฉี่ - หมากรุกหมีแพนด้า</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="รูปแบบของเซียงฉีที่มีหมีแทนช้าง เล่นบนกระดาน 8x8 โดยมีจุดมุ่งหมายเพื่อรุกฆาตกษัตริย์">
+    <meta name="keywords" content="Xiangqi, 熊棋, ションチー, Xiongqi, กฎ, หมากรุกหมีแพนด้า, เกม">
+
+    <meta property="og:title" content="เซียงฉี่">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://th.xiongqi.page/">
+    <meta property="og:image" content="https://th.xiongqi.page/img/xiongqi-starting-position.webp">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="เซียงฉี่ - หมากรุกหมีแพนด้า">
+    <meta name="twitter:image" content="https://th.xiongqi.page/img/xiongqi-starting-position.webp">
+
+    <link rel="canonical" href="https://th.xiongqi.page/">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
+
+    <link rel="stylesheet" href="css/props.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/all.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
+
+    <link rel="alternate" hreflang="en" href="https://en.xiongqi.page/">
+    <link rel="alternate" hreflang="fr" href="https://fr.xiongqi.page/">
+    <link rel="alternate" hreflang="ja" href="https://ja.xiongqi.page/">
+    <link rel="alternate" hreflang="th" href="https://th.xiongqi.page/">
+    <link rel="alternate" hreflang="zh" href="https://zh.xiongqi.page/">
+    <link rel="alternate" hreflang="x-default" href="https://xiongqi.page/">
+
+    <link rel="canonical" href="https://th.xiongqi.page/">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "เซียงฉี่ - หมาแพนด้าเชส",
+        "alternateName": ["熊棋", "Xiongqi", "หมาแพนด้าเชส"],
+        "description": "เซียงฉี่เป็นรูปแบบหนึ่งของเซียงฉี (หมากรุกจีน) โดยมีหมีแทนช้าง เล่นบนกระดาน 8x8 โดยมีเป้าหมายเพื่อรุกฆาตกษัตริย์ เกมนี้เล่นด้วยผู้เล่นสองคนและแนะนำตัว 'จักรพรรดินี' ซึ่งรวมการเคลื่อนไหวของหอคอยและอัศวิน",
+        "keywords": "Xiangqi, 熊棋, ションチー, Xiongqi, กฎ, หมาแพนด้าเชส, เกม, หมากรุกจีน, รูปแบบ, เกมกระดาน",
+        "image": "https://th.xiongqi.page/img/xiongqi-starting-position.webp",
+        "url": "https://th.xiongqi.page/",
+        "datePublished": "2019-04-28",
+        "dateModified": "2025-03-15",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 2,
+          "maxValue": 2
+        },
+        "inLanguage": "th",
+        "sameAs": [
+          "https://en.xiongqi.page/",
+          "https://zh.xiongqi.page/",
+          "https://ja.xiongqi.page/",
+          "https://fr.xiongqi.page/"
+        ],
+        "about": {
+          "@type": "Thing",
+          "name": "เกมหมากรุก",
+          "description": "รูปแบบที่ได้แรงบันดาลใจจากหมากรุกจีนแบบดั้งเดิม เล่นบนกระดาน"
+        },
+        "isBasedOn": {
+          "@type": "Game",
+          "name": "เซียงฉี",
+          "alternateName": "หมากรุกจีน"
+        },
+        "creator": {
+          "@type": "Organization",
+          "name": "ชุมชนเซียงฉี่"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://th.xiongqi.page/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <article>
+      <header>
+        <h1>เกมหมากรุกหมีแพนด้า</h1>
+
+        <p>
+          <strong title="หมากรุกหมีแพนด้า">เซียงฉี่</strong> (熊棋, pinyin: xióngqí) หรือที่เรียกว่า <strong>หมากรุกหมีแพนด้า</strong> เป็นการปรับเปลี่ยนอย่างรอบคอบของหมากรุกจีนแบบดั้งเดิม โดยนำเสนอบนกระดาน 8x8
+          การปรับเปลี่ยนนี้ไม่เพียงแต่นำมาซึ่งความสอดคล้องกับมาตรฐานหมากรุกสากล แต่ยังแนะนำกลยุทธ์ที่ซับซ้อนผ่านการเพิ่มหมาก <cite>ราชินี</cite>
+          หมากนี้ ซึ่งเป็นเครื่องหมายแห่งนวัตกรรมในเกม เชิญชวนให้ผู้เล่นสำรวจมิติกลยุทธ์ใหม่ๆ ในขณะที่ยังคงเคารพมรดกอันลึกซึ้งของหมากรุก
+        </p>
+
+        <p>
+          แม้ว่าเซียงฉี่จะยังคงรักษาแก่นแท้ของความลึกเชิงกลยุทธ์ของหมากรุกจีน แต่เกมนี้ได้เสริมสร้างเรื่องราวด้วยการผสมผสานกับตำนานสมัยใหม่ ทำให้แตกต่างจากเกมที่มีรากฐานทางประวัติศาสตร์อันแน่นแฟ้น เช่น จตุรงค์
+          หัวใจสำคัญของเสน่ห์คือ <a href="/tamnan-mueang/" title="ตำนานเมืองของเซียงฉี่">ตำนานเมือง</a> เกี่ยวกับความเชื่อมโยงกับเทพีเหอเซียนกู่ ซึ่งห่อหุ้มเซียงฉี่ไว้ในความลึกลับที่น่าสนใจและรวมเข้ากับประเพณีนิยมอันหลากหลายของจีน
+          การหลอมรวมระหว่างตำนานกับองค์ประกอบที่จับต้องได้ของเกมนี้ไม่เพียงแต่เพิ่มความลึกให้กับพื้นหลัง แต่ยังเชิญชวนผู้เล่นให้เดินทางผ่านกลยุทธ์และตำนาน เชื่อมโยงประเพณีในอดีตกับความเป็นไปได้ในอนาคต
+        </p>
+      </header>
+
+      <nav aria-label="สารบัญ">
+        <h2>สารบัญ</h2>
+        <ul>
+          <li><a href="#setup">การจัดวาง</a></li>
+          <li><a href="#pieces">หมาก</a></li>
+          <li><a href="#rules">กฎ</a>
+            <ul>
+              <li><a href="#auspicious-board">กระดานมงคล</a></li>
+              <li><a href="#royal-duo">คู่หมากราชวงศ์</a></li>
+              <li><a href="#borderless-gameplay">การเล่นไร้พรมแดน</a></li>
+              <li><a href="#diagonal-dynamos">พลังแนวทแยง</a></li>
+              <li><a href="#dragon-s-leap">การกระโดดของมังกร</a></li>
+              <li><a href="#pawn-ascension">การเลื่อนขั้นของเบี้ย</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="setup">
+        <h2>การจัดวาง</h2>
+
+        <table class="squares">
+          <tbody>
+            <tr class="rank">
+              <td class="square" data-coordinate="a8"><img class="piece" draggable="true" data-code="x:r" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/rook.svg" alt="เรือ"></td>
+              <td class="square" data-coordinate="b8"><img class="piece" draggable="true" data-code="x:h" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/horse.svg" alt="ม้า"></td>
+              <td class="square" data-coordinate="c8"><img class="piece" draggable="true" data-code="x:b" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/bishop.svg" alt="หมี"></td>
+              <td class="square" data-coordinate="d8"><img class="piece" draggable="true" data-code="x:e" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/empress.svg" alt="ราชินี"></td>
+              <td class="square" data-coordinate="e8"><img class="piece" draggable="true" data-code="x:k^" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/king.svg" alt="กษัตริย์"></td>
+              <td class="square" data-coordinate="f8"><img class="piece" draggable="true" data-code="x:b" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/bishop.svg" alt="หมี"></td>
+              <td class="square" data-coordinate="g8"><img class="piece" draggable="true" data-code="x:h" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/horse.svg" alt="ม้า"></td>
+              <td class="square" data-coordinate="h8"><img class="piece" draggable="true" data-code="x:r" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/rook.svg" alt="เรือ"></td>
+            </tr>
+
+            <tr class="rank">
+              <td class="square" data-coordinate="a7"></td>
+              <td class="square" data-coordinate="b7"></td>
+              <td class="square" data-coordinate="c7"><img class="piece" draggable="true" data-code="x:c" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/cannon.svg" alt="ปืนใหญ่"></td>
+              <td class="square" data-coordinate="d7"></td>
+              <td class="square" data-coordinate="e7"></td>
+              <td class="square" data-coordinate="f7"><img class="piece" draggable="true" data-code="x:c" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/cannon.svg" alt="ปืนใหญ่"></td>
+              <td class="square" data-coordinate="g7"></td>
+              <td class="square" data-coordinate="h7"></td>
+            </tr>
+
+            <tr class="rank">
+              <td class="square" data-coordinate="a6"><img class="piece" draggable="true" data-code="x:p" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="b6"><img class="piece" draggable="true" data-code="x:p" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="c6"><img class="piece" draggable="true" data-code="x:p" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="d6"><img class="piece" draggable="true" data-code="x:p" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="e6"><img class="piece" draggable="true" data-code="x:p" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="f6"><img class="piece" draggable="true" data-code="x:p" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="g6"><img class="piece" draggable="true" data-code="x:p" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="h6"><img class="piece" draggable="true" data-code="x:p" data-variant="xiongqi" data-side="north" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ย"></td>
+            </tr>
+
+            <tr class="rank">
+              <td class="square" data-coordinate="a5"></td>
+              <td class="square" data-coordinate="b5"></td>
+              <td class="square" data-coordinate="c5"></td>
+              <td class="square" data-coordinate="d5"></td>
+              <td class="square" data-coordinate="e5"></td>
+              <td class="square" data-coordinate="f5"></td>
+              <td class="square" data-coordinate="g5"></td>
+              <td class="square" data-coordinate="h5"></td>
+            </tr>
+
+            <tr class="rank">
+              <td class="square" data-coordinate="a4"></td>
+              <td class="square" data-coordinate="b4"></td>
+              <td class="square" data-coordinate="c4"></td>
+              <td class="square" data-coordinate="d4"></td>
+              <td class="square" data-coordinate="e4"></td>
+              <td class="square" data-coordinate="f4"></td>
+              <td class="square" data-coordinate="g4"></td>
+              <td class="square" data-coordinate="h4"></td>
+            </tr>
+
+            <tr class="rank">
+              <td class="square" data-coordinate="a3"><img class="piece" draggable="true" data-code="X:P" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="b3"><img class="piece" draggable="true" data-code="X:P" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="c3"><img class="piece" draggable="true" data-code="X:P" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="d3"><img class="piece" draggable="true" data-code="X:P" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="e3"><img class="piece" draggable="true" data-code="X:P" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="f3"><img class="piece" draggable="true" data-code="X:P" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="g3"><img class="piece" draggable="true" data-code="X:P" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/pawn.svg" alt="เบี้ย"></td>
+              <td class="square" data-coordinate="h3"><img class="piece" draggable="true" data-code="X:P" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/pawn.svg" alt="เบี้ย"></td>
+            </tr>
+
+            <tr class="rank">
+              <td class="square" data-coordinate="a2"></td>
+              <td class="square" data-coordinate="b2"></td>
+              <td class="square" data-coordinate="c2"><img class="piece" draggable="true" data-code="X:C" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/cannon.svg" alt="ปืนใหญ่"></td>
+              <td class="square" data-coordinate="d2"></td>
+              <td class="square" data-coordinate="e2"></td>
+              <td class="square" data-coordinate="f2"><img class="piece" draggable="true" data-code="X:C" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/cannon.svg" alt="ปืนใหญ่"></td>
+              <td class="square" data-coordinate="g2"></td>
+              <td class="square" data-coordinate="h2"></td>
+            </tr>
+
+            <tr class="rank">
+              <td class="square" data-coordinate="a1"><img class="piece" draggable="true" data-code="X:R" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/rook.svg" alt="เรือ"></td>
+              <td class="square" data-coordinate="b1"><img class="piece" draggable="true" data-code="X:H" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/horse.svg" alt="ม้า"></td>
+              <td class="square" data-coordinate="c1"><img class="piece" draggable="true" data-code="X:B" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/bishop.svg" alt="หมี"></td>
+              <td class="square" data-coordinate="d1"><img class="piece" draggable="true" data-code="X:E" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/empress.svg" alt="ราชินี"></td>
+              <td class="square" data-coordinate="e1"><img class="piece" draggable="true" data-code="X:K^" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/king.svg" alt="กษัตริย์"></td>
+              <td class="square" data-coordinate="f1"><img class="piece" draggable="true" data-code="X:B" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/bishop.svg" alt="หมี"></td>
+              <td class="square" data-coordinate="g1"><img class="piece" draggable="true" data-code="X:H" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/horse.svg" alt="ม้า"></td>
+              <td class="square" data-coordinate="h1"><img class="piece" draggable="true" data-code="X:R" data-variant="xiongqi" data-side="south" src="img/variant/xiongqi/south/western/rook.svg" alt="เรือ"></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="pieces">
+        <h2>หมาก</h2>
+
+        <table class="pieces">
+          <caption>
+            ผู้เล่นฝั่งเหนือ
+          </caption>
+
+          <thead>
+            <tr>
+              <th>ชื่อจีน</th>
+              <th>ชื่อไทย</th>
+              <th>อักษรย่อ</th>
+              <th>ชื่อตะวันตก</th>
+              <th colspan="2" rowspan="1">ภาพ</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>王 (wáng)</th>
+              <td>กษัตริย์</td>
+              <td><code>k</code></td>
+              <td>King</td>
+              <td><img class="piece" src="img/variant/xiongqi/north/eastern/king.svg" alt="กษัตริย์แบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/north/western/king.svg" alt="กษัตริย์แบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>騛 (fēi)</th>
+              <td>กระต่ายบิน</td>
+              <td><code>e</code></td>
+              <td>Empress</td>
+              <td><img class="piece" src="img/variant/xiongqi/north/eastern/empress.svg" alt="ราชินีแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/north/western/empress.svg" alt="ราชินีแบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>車 (jū)</th>
+              <td>เรือ</td>
+              <td><code>r</code></td>
+              <td>Rook</td>
+              <td><img class="piece" src="img/variant/xiongqi/north/eastern/rook.svg" alt="เรือแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/north/western/rook.svg" alt="เรือแบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>熊 (xióng)</th>
+              <td>หมี</td>
+              <td><code>b</code></td>
+              <td>Bishop</td>
+              <td><img class="piece" src="img/variant/xiongqi/north/eastern/bishop.svg" alt="หมีแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/north/western/bishop.svg" alt="หมีแบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>砲 (pào)</th>
+              <td>เครื่องยิง</td>
+              <td><code>c</code></td>
+              <td>Cannon</td>
+              <td><img class="piece" src="img/variant/xiongqi/north/eastern/cannon.svg" alt="ปืนใหญ่แบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/north/western/cannon.svg" alt="ปืนใหญ่แบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>馬 (mǎ)</th>
+              <td>อัศวิน</td>
+              <td><code>h</code></td>
+              <td>Horse</td>
+              <td><img class="piece" src="img/variant/xiongqi/north/eastern/horse.svg" alt="ม้าแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/north/western/horse.svg" alt="ม้าแบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>卒 (zú)</th>
+              <td>เบี้ย</td>
+              <td><code>p</code></td>
+              <td>Pawn</td>
+              <td><img class="piece" src="img/variant/xiongqi/north/eastern/pawn.svg" alt="เบี้ยแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/north/western/pawn.svg" alt="เบี้ยแบบตะวันตก"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="pieces">
+          <caption>
+            ผู้เล่นฝั่งใต้
+          </caption>
+
+          <thead>
+            <tr>
+              <th>ชื่อจีน</th>
+              <th>ชื่อไทย</th>
+              <th>อักษรย่อ</th>
+              <th>ชื่อตะวันตก</th>
+              <th colspan="2" rowspan="1">ภาพ</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>仼 (wáng)</th>
+              <td>จักรพรรดิ</td>
+              <td><code>K</code></td>
+              <td>King</td>
+              <td><img class="piece" src="img/variant/xiongqi/south/eastern/king.svg" alt="กษัตริย์แบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/south/western/king.svg" alt="กษัตริย์แบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>妃 (fēi)</th>
+              <td>สนม</td>
+              <td><code>E</code></td>
+              <td>Empress</td>
+              <td><img class="piece" src="img/variant/xiongqi/south/eastern/empress.svg" alt="ราชินีแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/south/western/empress.svg" alt="ราชินีแบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>俥 (jū)</th>
+              <td>รถศึก</td>
+              <td><code>R</code></td>
+              <td>Rook</td>
+              <td><img class="piece" src="img/variant/xiongqi/south/eastern/rook.svg" alt="เรือแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/south/western/rook.svg" alt="เรือแบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>雄 (xióng)</th>
+              <td>วีรบุรุษ</td>
+              <td><code>B</code></td>
+              <td>Bishop</td>
+              <td><img class="piece" src="img/variant/xiongqi/south/eastern/bishop.svg" alt="หมีแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/south/western/bishop.svg" alt="หมีแบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>炮 (pào)</th>
+              <td>ปืนใหญ่</td>
+              <td><code>C</code></td>
+              <td>Cannon</td>
+              <td><img class="piece" src="img/variant/xiongqi/south/eastern/cannon.svg" alt="ปืนใหญ่แบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/south/western/cannon.svg" alt="ปืนใหญ่แบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>傌 (mǎ)</th>
+              <td>ม้า</td>
+              <td><code>H</code></td>
+              <td>Horse</td>
+              <td><img class="piece" src="img/variant/xiongqi/south/eastern/horse.svg" alt="ม้าแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/south/western/horse.svg" alt="ม้าแบบตะวันตก"></td>
+            </tr>
+            <tr>
+              <th>兵 (bīng)</th>
+              <td>ทหาร</td>
+              <td><code>P</code></td>
+              <td>Pawn</td>
+              <td><img class="piece" src="img/variant/xiongqi/south/eastern/pawn.svg" alt="ทหารแบบตะวันออก"></td>
+              <td><img class="piece" src="img/variant/xiongqi/south/western/pawn.svg" alt="ทหารแบบตะวันตก"></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="rules">
+        <h2>กฎ</h2>
+
+        <p>
+          เซียงฉี่สะท้อนแก่นแท้ของเซียงฉีแบบดั้งเดิม ผสานกับนวัตกรรมเชิงกลยุทธ์และความละเอียดอ่อนทางวัฒนธรรมที่เพิ่มความลึกและความน่าดึงดูดใจ
+        </p>
+      </section>
+
+      <section id="auspicious-board">
+        <h3>กระดานมงคล</h3>
+
+        <p>
+          วางบนกระดาน 8x8 เซียงฉี่ผสมผสานรูปแบบหมากรุกที่คุ้นเคยกับองค์ประกอบของความเจริญรุ่งเรืองและการฟื้นฟู สะท้อนสัญลักษณ์อันลึกซึ้งที่สอดแทรกตลอดวัฒนธรรมจีน
+        </p>
+      </section>
+
+      <section id="royal-duo">
+        <h3>คู่หมากราชวงศ์</h3>
+
+        <p>
+          ที่แก่นแท้ของเซียงฉี่ คู่หมากราชวงศ์เสริมเกมด้วยความลึกและความเชื่อมโยงทางประวัติศาสตร์:
+        </p>
+
+        <ul>
+          <li>ราชินีผสมผสานการเคลื่อนที่เป็นเส้นตรงของเรือ ซึ่งมีร่วมกันทั้งในหมากรุกตะวันตกและจีน กับพลังการเคลื่อนที่ของอัศวิน (ม้า) ในหมากรุกตะวันตก สร้างหมากที่สะท้อนความหลากหลายเชิงกลยุทธ์</li>
+          <li>กษัตริย์เป็นเครื่องหมายการกลับมาประวัติศาสตร์สู่กระดาน เป็นการแสดงความเคารพต่อยุคโบราณเมื่อรูปของกษัตริย์ถูกแทนที่ด้วยตัวอักษรของจอมทัพเพื่อปฏิบัติตามพระบรมราชโองการ หมากนี้ซึ่งเคยถูกห้ามภายใต้การข่มขู่ด้วยการลงโทษอย่างรุนแรง ขณะนี้เคลื่อนที่ด้วยศักดิ์ศรีที่รู้จักในหมากรุกตะวันตก เป็นสัญลักษณ์ของความยืดหยุ่นและจิตวิญญาณที่ยืนยาวของมรดกอันล้ำค่าของเกม</li>
+        </ul>
+      </section>
+
+      <section id="borderless-gameplay">
+        <h3>การเล่นไร้พรมแดน</h3>
+
+        <p>
+          ในเซียงฉี่ ข้อจำกัดแบบเดิมถูกยกเลิก ทั้งแม่น้ำและวังไม่ได้จำกัดหมาก ส่งเสริมการเคลื่อนไหวอย่างคล่องตัวบนกระดาน
+          อย่างไรก็ตาม ประเพณีของการเพิ่มพลังให้กับเบี้ยเมื่อข้ามแม่น้ำยังคงอยู่ ช่วยเพิ่มความสำคัญเชิงกลยุทธ์ผ่านการเพิ่มการเคลื่อนไหวด้านข้าง
+        </p>
+      </section>
+
+      <section id="diagonal-dynamos">
+        <h3>พลังแนวทแยง</h3>
+
+        <p>
+          เซียงฉี่แทนที่ช้างของเซียงฉีด้วยหมีแพนด้า ทำหน้าที่เป็นบิชอปที่เคลื่อนที่ในแนวทแยงและข้ามแม่น้ำได้
+          การเปลี่ยนแปลงนี้ไม่เพียงแต่นำเสนอกลยุทธ์ใหม่ๆ แต่ยังสะท้อนชื่อของมันเอง เซียงฉี่ (熊棋) ซึ่งให้เกียรติกับความสำคัญทางวัฒนธรรมของแพนด้าในประเทศจีนและเสริมสร้างอัตลักษณ์ของเกม
+        </p>
+      </section>
+
+      <section id="dragon-s-leap">
+        <h3>การกระโดดของมังกร</h3>
+
+        <p>
+          กฎพิเศษจะมีผลเมื่อกษัตริย์ทั้งสองยืนโดยไม่มีสิ่งกีดขวางบนแถวหรือแนวเดียวกัน—การเคลื่อนไหวของกษัตริย์บิน
+          กลยุทธ์อันโดดเด่นนี้เปลี่ยนกษัตริย์ที่เคลื่อนไหวเป็นมังกร มอบพลังในการพุ่งข้ามกระดานเพื่อการจับกินอย่างเด็ดขาด
+          อย่างไรก็ตาม การจัดฉากเช่นนี้สะท้อนถึงการรุกตัวเอง ทำให้การเคลื่อนไหวนี้เป็นความขัดแย้งเชิงกลยุทธ์ที่ไม่อนุญาตภายในกฎของเกม
+        </p>
+      </section>
+
+      <section id="pawn-ascension">
+        <h3>การเลื่อนขั้นของเบี้ย</h3>
+
+        <p>
+          เช่นเดียวกับในหมากรุกตะวันตก เมื่อเบี้ยเดินไปถึงแถวที่แปด จะได้รับการเลื่อนขั้นและต้องแลกเปลี่ยนเป็นราชินี, เรือ, หมี, ม้า หรือปืนใหญ่ตามที่ผู้เล่นเลือก
+          โดยปกติ เบี้ยจะถูกเลื่อนขั้นเป็นราชินี แต่ในบางกรณี อาจเลือกหมากอื่น เรียกว่าการเลื่อนขั้นต่ำกว่า
+          ไม่มีข้อจำกัดเกี่ยวกับหมากที่เลื่อนขั้น จึงเป็นไปได้ที่จะมีหมากชนิดเดียวกันมากกว่าในตอนเริ่มเกม (เช่น มีราชินีสองตัวหรือมากกว่า)
+        </p>
+      </section>
+    </article>
+
+    <aside>
+      <h2>ดูเพิ่มเติม</h2>
+      <p>ค้นพบรูปแบบทางวัฒนธรรมเหล่านี้ของเกมหมากรุก:</p>
+
+      <ul>
+        <li>
+          <strong><a href="https://th.ogi.page/">โอกิ (王棋)</a></strong> — <q>เกมของกษัตริย์</q> รูปแบบญี่ปุ่นที่มาจากโชกิ เล่นบนกระดานขนาดเล็กพร้อมความสามารถในการนำหมากที่ถูกจับกลับมาใช้ใหม่
+        </li>
+        <li>
+          <strong><a href="https://th.chess.page/">หมากรุกสากล</a></strong> — <q>ราชาแห่งเกม</q> รูปแบบตะวันตกแบบคลาสสิกที่เล่นบนกระดาน 8×8
+        </li>
+      </ul>
+    </aside>
+
+    <nav aria-label="การเลือกภาษา">
+      <p>มีให้บริการในภาษาอื่นๆ:</p>
+
+      <ul>
+        <li><a title="เปลี่ยนเป็นภาษาอังกฤษ" href="https://en.xiongqi.page/" lang="en">English</a></li>
+        <li><a title="เปลี่ยนเป็นภาษาจีน" href="https://zh.xiongqi.page/" lang="zh">中文</a></li>
+        <li><a title="เปลี่ยนเป็นภาษาฝรั่งเศส" href="https://fr.xiongqi.page/" lang="fr">Français</a></li>
+        <li><a title="เปลี่ยนเป็นภาษาญี่ปุ่น" href="https://ja.xiongqi.page/" lang="ja">日本語</a></li>
+      </ul>
+    </nav>
+
+    <script type="module">
+      import { initializeGame } from './js/game.js';
+      initializeGame();
+    </script>
+  </body>
+</html>
